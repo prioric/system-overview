@@ -1,6 +1,6 @@
 # System overview
 
-An AI agent skill that draws one wide page showing a company as one system. It reads the ten chapters that the [prioric-system-analysis](https://github.com/prioric/prioric-system-analysis) skill writes, and makes one HTML file:
+An AI agent skill that draws one wide page showing a company as one system. It reads the ten chapters that the [prioric-system-analysis](https://github.com/prioric/system-analysis) skill writes, and makes one HTML file:
 
 1. **Eleven cards of facts around the edge**, in four groups: around it (market, customers, competitors), what it owns and what binds it (assets, capabilities, limits), where its money goes (invests, cuts, hires), and what it says (story, signal). Every card names its source.
 2. **Two or three numbered lines** between the cards whose facts pull against each other. Each pull names who pays for it.
@@ -17,7 +17,7 @@ The skill follows the open [Agent Skills](https://agentskills.io) format: a `SKI
 Install the system analysis skill first. Then copy this folder into the folder your agent reads skills from, under the name `prioric-system-overview`. For Claude Code:
 
 ```
-git clone https://github.com/prioric/prioric-system-overview.git ~/.claude/skills/prioric-system-overview
+git clone https://github.com/prioric/system-overview.git ~/.claude/skills/prioric-system-overview
 ```
 
 For another agent, copy the folder where that agent finds its skills, or point the agent at `SKILL.md`.
