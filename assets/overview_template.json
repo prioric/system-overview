@@ -1,0 +1,113 @@
+{
+  "company": "{Company}",
+  "language": "en",
+  "title": "{One sentence that states what is going on at the company and who it matters to.}",
+  "status": "draft, not checked by a person",
+  "evidence_date": "{date of the newest source}",
+  "sources": "{The main sources and their dates, in one sentence.}",
+  "stats": [
+    {
+      "figure": "{figure}",
+      "label": "{what it is, year}"
+    },
+    {
+      "figure": "{figure}",
+      "label": "{what it is, year}"
+    }
+  ],
+  "cards": {
+    "market": {
+      "headline": "{One sentence that says what the facts mean for this company.}",
+      "body": "{One to three plain sentences with the facts.}",
+      "source": "{The documents and their dates}"
+    },
+    "customers": {
+      "headline": "{One sentence that says what the facts mean for this company.}",
+      "body": "{One to three plain sentences with the facts.}",
+      "source": "{The documents and their dates}"
+    },
+    "competitors": {
+      "headline": "{One sentence that says what the facts mean for this company.}",
+      "body": "{One to three plain sentences with the facts.}",
+      "source": "{The documents and their dates}"
+    },
+    "assets": {
+      "headline": "{One sentence that says what the facts mean for this company.}",
+      "body": "{One to three plain sentences with the facts.}",
+      "source": "{The documents and their dates}"
+    },
+    "capabilities": {
+      "headline": "{One sentence that says what the facts mean for this company.}",
+      "body": "{One to three plain sentences with the facts.}",
+      "source": "{The documents and their dates}"
+    },
+    "limits": {
+      "headline": "{One sentence that says what the facts mean for this company.}",
+      "body": "{One to three plain sentences with the facts.}",
+      "source": "{The documents and their dates}"
+    },
+    "invests": {
+      "headline": "{One sentence that says what the facts mean for this company.}",
+      "body": "{One to three plain sentences with the facts.}",
+      "source": "{The documents and their dates}"
+    },
+    "cuts": {
+      "headline": "{One sentence that says what the facts mean for this company.}",
+      "body": "{One to three plain sentences with the facts.}",
+      "source": "{The documents and their dates}"
+    },
+    "hires": {
+      "headline": "{One sentence that says what the facts mean for this company.}",
+      "body": "{One to three plain sentences with the facts.}",
+      "source": "{The documents and their dates}"
+    },
+    "story": {
+      "headline": "{One sentence that says what the facts mean for this company.}",
+      "body": "{One to three plain sentences with the facts.}",
+      "source": "{The documents and their dates}"
+    },
+    "signal": {
+      "headline": "{One sentence that says what the facts mean for this company.}",
+      "body": "{One to three plain sentences with the facts.}",
+      "source": "{The documents and their dates}"
+    }
+  },
+  "pulls": [
+    {
+      "title": "{Five words or fewer}",
+      "sentence": "{Both facts and the pull between them, in one sentence.}",
+      "from": "{card key}",
+      "to": "{card key}",
+      "from_fact": "{a short quote from one Evidence line of the from card's chapter}",
+      "to_fact": "{a short quote from one Evidence line of the to card's chapter}",
+      "who_pays": "{Who carries the cost, and by when.}"
+    },
+    {
+      "title": "{Five words or fewer}",
+      "sentence": "{Both facts and the pull between them, in one sentence.}",
+      "from": "{card key}",
+      "to": "{card key}",
+      "from_fact": "{a short quote from one Evidence line of the from card's chapter}",
+      "to_fact": "{a short quote from one Evidence line of the to card's chapter}",
+      "who_pays": "{Who carries the cost, and by when.}"
+    }
+  ],
+  "decision": {
+    "who": "{The body that decides}",
+    "what": "{What it decides, in one sentence.}",
+    "by_when": "{date and what happens then, or: unknown, no source gives a date}",
+    "options": [
+      {
+        "option": "{The option, as a fact}",
+        "cost": "{What it costs.}",
+        "who_pays": "{Who carries that cost}"
+      },
+      {
+        "option": "{The option, as a fact}",
+        "cost": "{What it costs.}",
+        "who_pays": "{Who carries that cost}"
+      }
+    ],
+    "if_nobody": "{What happens if nobody decides, and when it shows.}"
+  }
+}

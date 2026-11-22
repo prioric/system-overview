@@ -1,0 +1,121 @@
+{
+  "company": "Alder Pipes",
+  "language": "en",
+  "title": "Westland's new lots need a €6 million bank guarantee, and the largest Alder has ever posted was €3.8 million.",
+  "status": "draft, not checked by a person",
+  "evidence_date": "10 November 2026",
+  "sources": "Alder annual reports 2021 to 2025; Westland tender notice of 3 October 2026 and general conditions of January 2024; the water boards' renewal programs and award lists; the competitors' annual reports 2025; the national welding register 2026; the alderpipes.example home page.",
+  "stats": [
+    {"figure": "€84m", "label": "Alder revenue, 2025"},
+    {"figure": "46%", "label": "of Alder revenue from Westland, 2025"}
+  ],
+  "cards": {
+    "market": {
+      "headline": "Seven water boards spend about €1.1 billion a year on pipe renewal, and Westland now tenders large lots.",
+      "body": "Westland spends about a third of the boards' total. Its program for 2027 to 2037 sets lots of €60 million and more. The first three lots open for bids in June 2027.",
+      "source": "Water boards' renewal programs, June 2026; Westland tender notice, October 2026"
+    },
+    "customers": {
+      "headline": "Westland paid 46% of Alder's revenue in 2025, up from 21% in 2021.",
+      "body": "The six smaller water boards paid 41% and the two gas network operators 13%. Each board uses the pipes and pays for the work itself. Every award sits on the public tender record.",
+      "source": "Alder annual reports 2021 and 2025"
+    },
+    "competitors": {
+      "headline": "Alder is the smallest of the four builders that win most of the boards' pipe work.",
+      "body": "Hollis Build had revenue of €920 million in 2025, against Alder's €84m. All four compete for the same lots and the same licensed welders. The floor is a board that delays renewal and repairs old pipe with its own crews.",
+      "source": "Competitors' annual reports 2025; national welding register 2026"
+    },
+    "assets": {
+      "headline": "Alder holds twenty years of acceptance records at every water board.",
+      "body": "The records let Alder pass the past-performance gate in any tender. It held four open Westland contracts worth €61 million at the end of 2025. Its cash was €7.6 million.",
+      "source": "Alder annual report 2025"
+    },
+    "capabilities": {
+      "headline": "Alder delivers lots under €40 million with its own crews, again and again.",
+      "body": "It won 27 lots from 2021 to 2025, every one under €40 million. The smaller boards recorded fewer defects on its sections than their average. It has never led a lot above €38 million.",
+      "source": "Boards' award lists and acceptance reports, 2021 to 2025"
+    },
+    "limits": {
+      "headline": "Each lot needs a bank guarantee of 10% of its value, and Alder's largest so far was €3.8 million.",
+      "body": "A €60 million Westland lot needs a €6 million guarantee. Receivables rose from 19% of revenue in 2021 to 31% in 2025, while cash stayed at 9%. The board approves every contract over €5 million.",
+      "source": "Westland general conditions, 2024; Alder annual report 2025"
+    },
+    "invests": {
+      "headline": "Alder spent €3 million on a second welding crew in 2025, paid from cash.",
+      "body": "It won two Westland lots in 2025, worth €19 million together. Its bid list for 2026 holds no lot over €40 million.",
+      "source": "Alder annual report 2025"
+    },
+    "cuts": {
+      "headline": "Alder recorded no sale of a unit, no closure and no layoff from 2021 to 2025.",
+      "body": "The annual reports for those five years record none.",
+      "source": "Alder annual reports 2021 to 2025"
+    },
+    "hires": {
+      "headline": "Alder's staff rose from 330 to 410 between 2021 and 2025.",
+      "body": "Most of the new staff are welders. They come from the same two training schools that Hollis Build and Carrow Group hire from.",
+      "source": "Alder annual report 2025; national welding register 2026"
+    },
+    "story": {
+      "headline": "Alder tells its story as the builder with its own crews, ready for the boards' decade of renewal.",
+      "body": "The annual report calls Alder \"the specialist for the boards' renewal decade\". The website's first line reads \"Our own crews, every metre\".",
+      "source": "Alder annual report 2025; alderpipes.example, November 2026"
+    },
+    "signal": {
+      "headline": "The website shows people at work in trenches, the crews before the projects.",
+      "body": "The home page opens on a photograph of two welders in a trench. It shows no picture of a finished project.",
+      "source": "alderpipes.example home page, read November 2026"
+    }
+  },
+  "pulls": [
+    {
+      "title": "The guarantee outgrows Alder",
+      "sentence": "Westland's new lots start at €60 million and each needs a €6 million guarantee, while the largest guarantee Alder has posted was €3.8 million.",
+      "from": "limits",
+      "to": "market",
+      "from_fact": "The largest guarantee Alder has posted was €3.8 million",
+      "to_fact": "bundles its work into lots of €60 million and more",
+      "who_pays": "Alder's owners and staff, if Alder cannot bid on Westland's lots when they open in June 2027."
+    },
+    {
+      "title": "One buyer, more unpaid work",
+      "sentence": "Westland paid 46% of Alder's revenue in 2025, while receivables rose to 31% of revenue and cash stayed at 9%.",
+      "from": "customers",
+      "to": "limits",
+      "from_fact": "Westland paid 46% of Alder's revenue in 2025.",
+      "to_fact": "Receivables were 31% of revenue at the end of 2025",
+      "who_pays": "Alder, which carries the unpaid work with its own cash and pays its bank a fee on every guarantee."
+    },
+    {
+      "title": "The same welders",
+      "sentence": "Alder grew its staff from 330 to 410, most of them welders, from the same two schools that its larger competitors hire from.",
+      "from": "hires",
+      "to": "competitors",
+      "from_fact": "Alder's staff rose from 330 at the end of 2021 to 410 at the end of 2025",
+      "to_fact": "hire licensed welders from the same two training schools as Alder",
+      "who_pays": "Alder, in wages, if Hollis Build or Carrow Group hire more welders for the 2027 lots. [INFERRED]"
+    }
+  ],
+  "decision": {
+    "who": "Alder's board of directors",
+    "what": "Whether Alder bids for Westland's first €60 million lots, and how it covers the €6 million guarantee each one needs.",
+    "by_when": "June 2027, when the first lots open for bids",
+    "options": [
+      {
+        "option": "Bid in a consortium with a larger builder",
+        "cost": "a share of each lot's margin, to a partner that also competes for Alder's welders.",
+        "who_pays": "Alder's owners"
+      },
+      {
+        "option": "Ask Kestrel Bank for a €6 million guarantee",
+        "cost": "a yearly fee for as long as the lot runs, and Alder Holding's approval to put cash at risk beyond one year.",
+        "who_pays": "Alder Holding"
+      },
+      {
+        "option": "Keep to lots under €40 million at the smaller boards",
+        "cost": "the Westland work that paid 46% of Alder's revenue in 2025.",
+        "who_pays": "Alder's staff and owners"
+      }
+    ],
+    "if_nobody": "Alder's bid list for 2026 holds no lot over €40 million, so the first Westland lots go to the larger builders when the award list comes out in December 2027."
+  }
+}
