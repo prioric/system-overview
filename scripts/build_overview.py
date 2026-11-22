@@ -366,9 +366,7 @@ def esc(s):
 
 def file_hash(p):
     """A hash of the file's text with line endings made equal, so a git checkout on Windows matches."""
-    data = Path(p).read_bytes().replace(b"
-", b"
-")
+    data = Path(p).read_bytes().replace(b"\r\n", b"\n")
     return hashlib.sha256(data).hexdigest()[:16]
 
 
